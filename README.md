@@ -1,5 +1,5 @@
 ## To Replicate issue
-1. Update config values in `src/App.js` and add the measurement ID in the `public/index.html` for the gtag initialization.
+1. Update config values in `src/App.js` and change the `GA_MEASUREMENT_ID` to the exact value of the measurement ID in the `public/index.html` for the gtag initialization.
 2. Run the `npm i` to install all dependencies.
 3. Run `npm run start` to start the dev instance.
 4. Go to https://tagassistant.google.com/ and connect the localhost for debugging.
