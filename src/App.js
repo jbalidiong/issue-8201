@@ -35,7 +35,6 @@ const setConsentParams = async (e) =>{
 function App() {
   return (
     <div className="App">
-      <button onClick={setConsentParams}>Change Consent</button>
     </div>
   );
 }
